@@ -10,3 +10,8 @@
 
 - http://localhost:5000/
 - http://localhost:5000/about.html
+
+8. Test Api, buka postman
+
+- Pastikan pada GET request
+- Masukan `http://localhost:5000/api/members`

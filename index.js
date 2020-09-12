@@ -24,7 +24,9 @@ const members = [
   },
 ];
 
-app.get("/api/members", (req, res) => {});
+app.get("/api/members", (req, res) => {
+  res.json(members);
+});
 
 // Set static folder
 app.use(express.static(path.join(__dirname, "public")));
