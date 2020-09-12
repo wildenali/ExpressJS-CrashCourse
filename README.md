@@ -20,3 +20,8 @@
 
 - Masukan `http://localhost:5000/api/members` di postman
 - Cek di console, harusnya keluar 'Helow'
+
+10. Cek url
+
+- Masukan `http://localhost:5000/api/members` di postman
+- Cek di console, harusnya keluar url http://localhost:5000/api/members yg keluar
