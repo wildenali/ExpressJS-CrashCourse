@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/wildenali/ExpressJS-CrashCourse/issues"
   },
-  "homepage": "https://github.com/wildenali/ExpressJS-CrashCourse#readme"
+  "homepage": "https://github.com/wildenali/ExpressJS-CrashCourse#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
