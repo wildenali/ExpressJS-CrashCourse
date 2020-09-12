@@ -15,3 +15,8 @@
 
 - Pastikan pada GET request
 - Masukan `http://localhost:5000/api/members`
+
+9. Cek middleware
+
+- Masukan `http://localhost:5000/api/members` di postman
+- Cek di console, harusnya keluar 'Helow'
