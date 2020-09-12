@@ -25,3 +25,9 @@
 
 - Masukan `http://localhost:5000/api/members` di postman
 - Cek di console, harusnya keluar url http://localhost:5000/api/members yg keluar
+
+11. Install moment `$ npm i moment`
+    Cek moment (waktu)
+
+- Masukan `http://localhost:5000/api/members` di postman
+- Cek di console, harusnya keluar url http://localhost:5000/api/members dan ada waktuny
