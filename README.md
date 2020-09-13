@@ -83,3 +83,12 @@ di raw tersebut
 
 - Click `Send`
 - Cek Hasilnya di Body > Pretty bagian bawah postman
+
+15. Delete Member
+
+- #### Test nya
+
+- Setup postman sebagai `DELETED` method
+- Masukkan `http://localhost:5000/api/members/1`
+- Click `Send`
+- Cek Hasilnya di Body > Pretty bagian bawah postman
