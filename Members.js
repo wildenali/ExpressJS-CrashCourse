@@ -1,4 +1,4 @@
-const members = [
+var members = [
   {
     id: 1,
     name: "John Doe",
@@ -19,4 +19,4 @@ const members = [
   },
 ];
 
-exports.exports = members;
+module.exports = members;

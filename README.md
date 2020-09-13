@@ -31,3 +31,9 @@
 
 - Masukan `http://localhost:5000/api/members` di postman
 - Cek di console, harusnya keluar url http://localhost:5000/api/members dan ada waktuny
+
+12. Get Single Member
+    Test
+
+- http://localhost:5000/api/members/2
+  Angka 2 bisa diganti jadi 3, 4, atau berapa aja
