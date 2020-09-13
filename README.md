@@ -37,3 +37,26 @@
 
 - http://localhost:5000/api/members/2
   Angka 2 bisa diganti jadi 3, 4, atau berapa aja
+
+13. Create Member
+
+- Install `npm i uuid`<br>
+
+##### Test nya
+
+- Setup postman sebagai `POST` method
+- Masukkan `http://localhost:5000/api/members`
+- Pilih `Body`, setelah itu kemudian pilih `raw`
+- Masukkan
+
+```
+{
+	"name": "Jake Smitsh",
+	"email": "jake@gmail.com"
+}
+```
+
+di raw tersebut
+
+- Click `Send`
+- Cek Hasilnya di Body > Pretty bagian bawah postman
