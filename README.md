@@ -92,3 +92,8 @@ di raw tersebut
 - Masukkan `http://localhost:5000/api/members/1`
 - Click `Send`
 - Cek Hasilnya di Body > Pretty bagian bawah postman
+
+16. Membuat Template
+
+- Pakai `express-handlebars`, goto [https://github.com/ericf/express-handlebars](https://github.com/ericf/express-handlebars) for ducumentiations
+- Install express-handler `npm install express-handlebars`
