@@ -42,7 +42,7 @@
 
 - Install `npm i uuid`<br>
 
-##### Test nya
+- #### Test nya
 
 - Setup postman sebagai `POST` method
 - Masukkan `http://localhost:5000/api/members`
@@ -53,6 +53,29 @@
 {
 	"name": "Jake Smitsh",
 	"email": "jake@gmail.com"
+}
+```
+
+di raw tersebut
+
+- Click `Send`
+- Cek Hasilnya di Body > Pretty bagian bawah postman
+
+14. Update Member
+
+- #### Test nya
+
+- Setup postman sebagai `PUT` method
+- Masukkan `http://localhost:5000/api/members/1`
+- Pilih `Headers`
+- Isi colomn pertama pada KEY dengan `Content-Type`
+- Isi colomn pertama pada VALUE dengan `application/json`
+- Pilih `Body`, setelah itu kemudian pilih `raw`
+- Masukkan
+
+```
+{
+	"email": "john@yahoo.com"
 }
 ```
 
